@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+body {color: #8f583d; margin: 0; font-family: 'Playfair Display', serif;}
+#header {background-color: #F3B9A1; height: 150px; line-height: 150px}
+#header a {color: white; text-decoration: none; text-transform: uppercase; letter-spacing: 0.1em;}
+#header a:hover {color: #222;}
+#header-title {display: block; float: left; font-size: 20px; font-weight: bold;}
+#header-nav {display: block ;float: right; margin-top: 0}
+#header-nav li {display: inline; padding-left: 20px}
+.container {max-width: 1000px; margin: 0 auto;}
+#footer {background-color: #F3B9A1; padding: 50px 0;}
+#footer h4 {color: white; text-decoration: none; text-transform: uppercase; letter-spacing: 0.1em;}
+#footer p {color: white;}
+#footer a {color: white; text-decoration: none; letter-spacing: 0.1em;}
+#footer a:hover {color: #222;}
+.column {min-width: 300px; display: inline-block; vertical-align: top;}
+.post {max-width: 700px; margin: 0 auto; padding: 50px 0;}
+.post-container:nth-child(even){background-color: #F3B9A1;}
+.post-author img {width: 700px; height: 700px; vertical-align: middle;}
+.post-author span {color: #9f7159; font-size: 14px; text-transform: uppercase;letter-spacing: 0.1em; text-align: center;}
+.post-date {color: #9f7159; font-size: 18px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em; text-align: center;}
+.post,.about {max-width: 600px; margin: 0 auto; padding: 50px;}
+.post,.about img {border-radius: 360px;}
+.about {text-align: center;}
+h1, h2, h3 {color: #634739; font-size: 36px}
+p {line-height: 1.5;}
